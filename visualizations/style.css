@@ -134,13 +134,9 @@ footer{
 /* Media Queries*/
 
 @media(max-width: 992px){
-    nav #navbar .nav-pills ul{
-        background-color: white;
-        color: darkslategrey;
-        visibility: hidden;
-    }
-    .nav-item-dropdown{
-        visibility: hidden;
+    .navbar-expand-lg{
+        {background-color: cadetblue !important;
+        }
     }
     .navbar {
         padding-bottom: 23%;
