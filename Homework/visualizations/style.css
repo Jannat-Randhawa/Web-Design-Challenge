@@ -1,0 +1,154 @@
+/* Navbar */
+.navbar {
+    max-height: 100px;
+    padding-left: 7%;
+    padding-right: 4%;
+    margin-left: inherit;
+    border-style: solid;
+    border-width: 0.5px;
+    color: darkgrey
+}
+
+
+.navbar-brand{
+    padding-left: 0.5%;
+}
+
+#navbar .navbar-brand{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(227, 240, 236);
+    border: rgb(128, 185, 206);
+    border-width: 2px;
+    border-style: solid;
+    color:  rgb(109, 167, 147);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand:hover{
+    color: darkcyan !important;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color: darkcyan;
+}
+.nav-link{
+    color:rgb(216, 87, 167)
+}
+.nav-link:hover{
+    background-color: rgb(209, 233, 229);
+}
+/*.dropdown-item{
+    color: darkcyan;
+}*/
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: darkcyan;
+}
+
+.box{
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color:black;
+    border-width: 2px;
+    background-color: rgb(255,255,255,0.5);
+    background-origin: padding-box;
+    border-style: solid;
+    border-color: rgb(128, 185, 206);
+}
+
+
+body{
+    /* background-color: rgb(227, 240, 236); */
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), 
+    url(https://i.pinimg.com/564x/51/90/5d/51905d42c57b998fbfc28d1a3bec054d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.70
+    backface-visibility: visible;
+    image-resolution: 1200pi;
+}
+
+hr{
+    border-color: rgb(216, 87, 167);
+    font-weight: bolder;
+    line-height: inherit;
+}
+
+.Title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(109, 167, 147);
+    text-align: center
+}
+
+
+
+
+
+/* image */
+img {
+    width: 100% !important;
+    height: 100% !important;
+    float: left;
+    border-radius: 20px;
+}
+
+img #parpic{
+    width: 200px;
+    height: 300px;
+
+}
+
+a .panel:hover{
+    border-color: darkcyan;
+    border-style: solid;
+}
+
+a{
+    color: darkcyan;
+    font-size: 15px;
+}
+
+/* Paragraph */
+
+p {
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(109, 167, 147);
+    padding-top: 15px;
+    text-align: center;
+    border-top: cadetblue;
+    min-height: 55px ;
+}
+
+/* Media Queries*/
+
+@media(max-width: 992px){
+    nav #navbar .nav-pills ul{
+        background-color: white;
+        color: darkslategrey;
+        visibility: hidden;
+    }
+    .nav-item-dropdown{
+        visibility: hidden;
+    }
+    .navbar {
+        padding-bottom: 23%;
+        color: mediumvioletred;
+    }
+
+    .navbar .dropdown-menu{
+        padding-bottom: 25%;
+        background-color: lightblue;
+    }
+}

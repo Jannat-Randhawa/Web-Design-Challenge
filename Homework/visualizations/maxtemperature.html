@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Data</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+  <body>
+  
+    <nav id="navbar" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <ul class="nav nav-pills" style="float:right">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" 
+        role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#maxtemperature.html">Max Temperature</a>
+          <a class="dropdown-item" href="#humidity.html">Humidity</a>
+          <a class="dropdown-item" href="#cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="#windspeed.html">Wind Speed</a>
+          <div role="separator" class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="visualizations/comparisons.html">Comparisons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="visualizations/data.html">Data</a>
+      </li>
+    </ul>
+  </nav>
+
+<!-----WEBSITE CONTENT------>
+<div class="container">
+  <!--first box-->
+  <div class= row>
+    <div class = col-xl-8>
+      <div class= box>
+        <h3 class= Title> Latitude Vs Max Temperature</h3>
+        <hr>
+        <img src=../Resources/assets/images/Fig1.png>
+        <br>
+        <br>
+        <p> From the max temperature and max temperature analysis we can gathter that the closer the city to the equator the warmer it is. Also as expected, 
+          temperatures in the sourthern hemisphere are somewhat opposite to that of northern hemisphere.
+        </p>
+      </div>
+    </div>
+  
+
+<!---- second box content ----->
+  <div class = col-xl-4>
+    <div class = box>
+      <h3 class = Title> Visualizations </h3>
+      <hr>
+      <div class = row style="padding-bottom: 30px">
+        <div class = col-6>
+          <a href=#maxtemperature.html > <img class=panel src="../Resources/assets/images/Fig1.png" 
+            alt="temp"></a>
+        </div>
+        <div class = col-6>
+          <a href=#humidity.html > <img class=panel src="../Resources/assets/images/Fig2.png" 
+            alt="humidity"></a>
+        </div>
+      </div>
+      <div class = row style="padding-bottom: 30px">
+        <div class = col-6>
+          <a href=#cloudiness.html > <img class=panel src="../Resources/assets/images/Fig3.png" 
+            alt="cloudiness"></a>
+        </div>
+        <div class = col-6>
+          <a href=#windspeed.html > <img class=panel src="../Resources/assets/images/Fig4.png" 
+            alt="windspeed"></a>
+          </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</body>
+
+
+
+<!-------FOOTER------->
+
+
+
+  
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
