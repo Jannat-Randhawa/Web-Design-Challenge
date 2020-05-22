@@ -6,7 +6,7 @@
     margin-left: inherit;
     border-style: solid;
     border-width: 0.5px;
-    color: darkgrey
+    color: mediumvioletred
 }
 
 
@@ -18,7 +18,7 @@
     margin-left: inherit;
     border-style: solid;
     border-width: 0.5px;
-    color: darkgrey
+    color: mediumvioletred
 }
 
 #navbar .navbar-brand{
@@ -41,15 +41,15 @@
 .active, .dropdown-menu .dropdown-item:active a:hover{
     background-color: darkcyan;
 }
-.nav-link{
-    color:rgb(216, 87, 167)
+
+#navbarSupportedContent .nav-link {
+    color: rgb(109, 167, 147);;
 }
+
 .nav-link:hover{
     background-color: rgb(209, 233, 229);
 }
-/*.dropdown-item{
-    color: darkcyan;
-}*/
+
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color: darkcyan;
@@ -153,7 +153,6 @@ footer{
     }
 
     .navbar div{
-        padding-bottom: 25%;
         margin: inherit;
         background-color: lightblue;
     }
