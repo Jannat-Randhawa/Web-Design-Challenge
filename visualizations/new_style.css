@@ -6,7 +6,7 @@
     margin-left: inherit;
     border-style: solid;
     border-width: 0.5px;
-    color: mediumvioletred
+    color: rgb(28, 142, 162)
 }
 
 
@@ -18,7 +18,7 @@
     margin-left: inherit;
     border-style: solid;
     border-width: 0.5px;
-    color: mediumvioletred
+    color: darkcyan
 }
 
 #navbar .navbar-brand{
@@ -44,7 +44,8 @@
 
 #navbarSupportedContent .nav-link {
     color: rgb(109, 167, 147);
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .nav-link:hover{
@@ -79,7 +80,7 @@ body{
     background-size: cover;
     opacity: 0.70
     backface-visibility: visible;
-    image-resolution: 1200pi;
+    image-resolution: 800pi;
 }
 
 hr{
