@@ -43,7 +43,8 @@
 }
 
 #navbarSupportedContent .nav-link {
-    color: rgb(109, 167, 147);;
+    color: rgb(109, 167, 147);
+    font-size: 15px;
 }
 
 .nav-link:hover{
