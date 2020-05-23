@@ -5,10 +5,9 @@
     padding-right: 4%;
     margin-left: inherit;
     border-style: solid;
-    border-width: 0.5px;
-    color: rgb(28, 142, 162)
+    border-width: 2px;
+    color: rgb(28, 142, 162);
 }
-
 
 .navbar-brand{
     padding-left: 0.5%;
@@ -55,6 +54,7 @@
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color: darkcyan;
+    border-radius: 10px;
 }
 
 .box{
@@ -68,6 +68,7 @@
     background-origin: padding-box;
     border-style: solid;
     border-color: rgb(128, 185, 206);
+    border-radius: 10px;
 }
 
 
@@ -85,7 +86,7 @@ body{
 
 hr{
     border-color: rgb(216, 87, 167);
-    font-weight: bolder;
+    border-width: 2px;
     line-height: inherit;
 }
 
