@@ -49,6 +49,7 @@
 
 .nav-link:hover{
     background-color: rgb(209, 233, 229);
+    border-radius: 10px;
 }
 
 
@@ -59,7 +60,7 @@
 
 .box{
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 30px; 
     padding-right: 30px;
     padding-left: 30px;
     color:black;
@@ -68,7 +69,7 @@
     background-origin: padding-box;
     border-style: solid;
     border-color: rgb(128, 185, 206);
-    border-radius: px;
+    border-radius: 10px;
 }
 
 
