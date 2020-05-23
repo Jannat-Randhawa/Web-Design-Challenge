@@ -5,9 +5,10 @@
     padding-right: 4%;
     margin-left: inherit;
     border-style: solid;
-    border-width: 2px;
-    color: rgb(28, 142, 162);
+    border-width: 0.5px;
+    color: darkgrey
 }
+
 
 .navbar-brand{
     padding-left: 0.5%;
@@ -17,7 +18,7 @@
     margin-left: inherit;
     border-style: solid;
     border-width: 0.5px;
-    color: darkcyan
+    color: darkgrey
 }
 
 #navbar .navbar-brand{
@@ -40,21 +41,18 @@
 .active, .dropdown-menu .dropdown-item:active a:hover{
     background-color: darkcyan;
 }
-
-#navbarSupportedContent .nav-link {
-    color: rgb(109, 167, 147);
-    font-weight: bold;
-    font-size: 25px;
+.nav-link{
+    color:rgb(216, 87, 167)
 }
-
 .nav-link:hover{
     background-color: rgb(209, 233, 229);
 }
-
+/*.dropdown-item{
+    color: darkcyan;
+}*/
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color: darkcyan;
-    border-radius: 10px;
 }
 
 .box{
@@ -68,7 +66,6 @@
     background-origin: padding-box;
     border-style: solid;
     border-color: rgb(128, 185, 206);
-    border-radius: px;
 }
 
 
@@ -81,12 +78,12 @@ body{
     background-size: cover;
     opacity: 0.70
     backface-visibility: visible;
-    image-resolution: 800pi;
+    image-resolution: 1200pi;
 }
 
 hr{
     border-color: rgb(216, 87, 167);
-    border-width: 2px;
+    font-weight: bolder;
     line-height: inherit;
 }
 
@@ -100,7 +97,9 @@ hr{
 }
 
 
-
+table{
+    overflow-y: scroll;
+}
 
 
 /* image */
@@ -139,32 +138,24 @@ footer{
     padding-top: 15px;
     text-align: center;
     border-top: cadetblue;
-    bottom: 0;
-    position: fixed;
-    text-align: center;
-    min-height: 55px;
-    width: 100%;
+    min-height: 55px ;
 }
-table{
-    overflow-y: scroll;
-    height: 100px;
-    font-size: 15px;
-    border-top-color: white!important;
-}
+
 /* Media Queries*/
 
 @media(max-width: 992px){
     .navbar-expand-lg{
-        background-color: rgb(227, 238, 247)!important;
+        {background-color: cadetblue !important;
+        }
     }
-
     .navbar {
         max-height: none;
         padding: inherit;
-        color: rgb(227, 238, 247);
+        color: mediumvioletred;
     }
 
     .navbar div{
+        padding-bottom: 25%;
         margin: inherit;
         background-color: lightblue;
     }
